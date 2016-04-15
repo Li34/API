@@ -1,0 +1,314 @@
+[ 2016-01-04T08:46:22+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0657s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203') [ RunTime:0.0683s ]
+
+[ 2016-01-04T08:48:25+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '91CDC822A2DBE947' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+ERR: 1062:Duplicate entry '91CDC822A2DBE947' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+
+[ 2016-01-04T08:49:18+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0048s ]
+ERR: 1062:Duplicate entry '91CDC822A2DBE947' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+ERR: 1062:Duplicate entry '91CDC822A2DBE947' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+
+[ 2016-01-04T08:57:24+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0043s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203') [ RunTime:0.0623s ]
+
+[ 2016-01-04T09:01:52+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0045s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0668s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0434s ]
+
+[ 2016-01-04T09:06:28+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0051s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\Program Files (x86)\wamp\www\project\test\App\Home\Controller\SyncController.class.php 第 8 行.
+
+[ 2016-01-04T09:06:51+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0037s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\Program Files (x86)\wamp\www\project\test\App\Home\Controller\SyncController.class.php 第 8 行.
+
+[ 2016-01-04T09:07:20+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0039s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0815s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0542s ]
+
+[ 2016-01-04T09:12:46+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0037s ]
+
+[ 2016-01-04T09:23:17+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0636s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0545s ]
+
+[ 2016-01-04T09:23:38+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+ERR: 1062:Duplicate entry '5FFF9B390121A821' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100')
+ERR: 1062:Duplicate entry '5FFF9B390121A821' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100')
+
+[ 2016-01-04T09:28:03+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0039s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0755s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0434s ]
+
+[ 2016-01-04T09:29:45+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0066s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1483s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0427s ]
+
+[ 2016-01-04T09:46:16+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('5FFF9B390121A821','3','0','245','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0893s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('002701DA30952B59','3','1','123','2016-01-03','','0','0','3316565053565502') [ RunTime:0.0546s ]
+
+[ 2016-01-04T09:48:28+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0070s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0869s ]
+
+[ 2016-01-04T09:51:21+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0041s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0857s ]
+
+[ 2016-01-04T09:55:02+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0048s ]
+ERR: 1062:Duplicate entry '05D2C6868AC6AF65' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100')
+ERR: 1062:Duplicate entry '05D2C6868AC6AF65' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100')
+
+[ 2016-01-04T09:56:00+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0043s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0916s ]
+
+[ 2016-01-04T10:05:37+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0042s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0873s ]
+
+[ 2016-01-04T10:06:22+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0042s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0832s ]
+
+[ 2016-01-04T10:07:58+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0048s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.2119s ]
+
+[ 2016-01-04T10:26:33+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0058s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1792s ]
+
+[ 2016-01-04T10:29:13+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0039s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1413s ]
+
+[ 2016-01-04T10:31:52+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0052s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0986s ]
+
+[ 2016-01-04T10:32:50+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0039s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1498s ]
+
+[ 2016-01-04T10:33:58+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0037s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0622s ]
+
+[ 2016-01-04T10:34:38+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0041s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1217s ]
+
+[ 2016-01-04T10:35:26+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0058s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0935s ]
+
+[ 2016-01-04T10:36:42+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0043s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0876s ]
+
+[ 2016-01-04T10:37:32+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0052s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1454s ]
+
+[ 2016-01-04T11:00:35+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0449s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1447s ]
+
+[ 2016-01-04T11:03:03+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0045s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('05D2C6868AC6AF65','3','0','221','2016-01-04','','0','0','7076542075117100') [ RunTime:0.0932s ]
+
+[ 2016-01-04T11:04:00+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0045s ]
+
+[ 2016-01-04T11:08:50+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0040s ]
+
+[ 2016-01-04T11:09:19+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0046s ]
+
+[ 2016-01-04T11:09:37+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+
+[ 2016-01-04T11:12:49+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0040s ]
+
+[ 2016-01-04T11:13:28+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0061s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('1C171D9EC0F11323','3','1','2222','2016-01-04','','0','0','7076542075117100') [ RunTime:0.1132s ]
+
+[ 2016-01-04T11:16:12+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('B8E204891CCC0D65','3','1','5566','2016-01-12','','0','0','7076542075117100') [ RunTime:0.1442s ]
+
+[ 2016-01-04T13:55:01+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0055s ]
+
+[ 2016-01-04T15:37:15+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0058s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' ) ORDER BY -date' at line 1
+ [ SQL语句 ] : SELECT * FROM `bill` WHERE ( date=2016-01' ) ORDER BY -date 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' ) ORDER BY -date' at line 1
+ [ SQL语句 ] : SELECT * FROM `bill` WHERE ( date=2016-01' ) ORDER BY -date 
+
+[ 2016-01-04T15:38:07+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `bill` WHERE ( date=2016-01-04 ) ORDER BY -date  [ RunTime:0.0955s ]
+
+[ 2016-01-04T15:38:22+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `bill` WHERE ( date=2016-01-04 ) ORDER BY -date  [ RunTime:0.0126s ]
+
+[ 2016-01-04T15:38:41+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `bill` WHERE ( date=2016-01-04 ) ORDER BY date  [ RunTime:0.0015s ]
+
+[ 2016-01-04T15:39:08+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `bill` WHERE ( user_id=3 ) ORDER BY date  [ RunTime:0.0284s ]
+
+[ 2016-01-04T15:57:36+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0007s ]
+
+[ 2016-01-04T15:58:44+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0011s ]
+
+[ 2016-01-04T15:59:16+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0011s ]
+
+[ 2016-01-04T15:59:21+08:00 ] 10.7.10.59 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('7800B53E57AF8970','3','0','12','2016-01-04','','0','0','3316565053565502') [ RunTime:0.2080s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('0A2E43EC70439C72','3','0','112','2015-12-04','','0','0','3316565053565502') [ RunTime:0.1973s ]
+
+[ 2016-01-04T15:59:43+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0196s ]
+
+[ 2016-01-04T16:01:14+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0008s ]
+
+[ 2016-01-04T16:10:54+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0010s ]
+
+[ 2016-01-04T16:12:01+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0009s ]
+
+[ 2016-01-04T16:13:01+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=true )  [ RunTime:0.0004s ]
+
+[ 2016-01-04T16:14:06+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=true )  [ RunTime:0.0020s ]
+
+[ 2016-01-04T16:15:29+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=true )  [ RunTime:0.0008s ]
+
+[ 2016-01-04T16:15:45+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0311s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=true )  [ RunTime:0.0005s ]
+
+[ 2016-01-04T16:16:15+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=false )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bill` WHERE ( isincome=true )  [ RunTime:0.0018s ]
+
+[ 2016-01-04T16:18:13+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY date  [ RunTime:0.0010s ]
+
+[ 2016-01-04T16:18:29+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0010s ]
+
+[ 2016-01-04T16:27:09+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0012s ]
+
+[ 2016-01-04T16:27:38+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0008s ]
+
+[ 2016-01-04T16:28:03+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0011s ]
+
+[ 2016-01-04T16:28:59+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0010s ]
+
+[ 2016-01-04T16:29:39+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0011s ]
+
+[ 2016-01-04T16:30:09+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0007s ]
+
+[ 2016-01-04T16:31:07+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0016s ]
+
+[ 2016-01-04T16:31:29+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0009s ]
+
+[ 2016-01-04T16:33:35+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0008s ]
+
+[ 2016-01-04T16:35:06+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0008s ]
+
+[ 2016-01-04T16:43:32+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0010s ]
+
+[ 2016-01-04T16:43:51+08:00 ] 10.7.10.59 /project/test/index.php/list
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `bill` WHERE `date` LIKE '2016-01%' ORDER BY -date  [ RunTime:0.0009s ]
+

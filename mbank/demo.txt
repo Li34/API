@@ -1,0 +1,10 @@
+array (
+  'file' => 
+  array (
+    'name' => 'image%3A28405',
+    'type' => 'image/jpeg',
+    'tmp_name' => 'D:\\Program Files (x86)\\wamp\\tmp\\phpF029.tmp',
+    'error' => 0,
+    'size' => 59805,
+  ),
+)

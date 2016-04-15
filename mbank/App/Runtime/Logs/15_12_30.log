@@ -1,0 +1,135 @@
+[ 2015-12-30T10:17:36+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:17:54+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:17:55+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:19:13+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:19:14+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:19:37+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:20:50+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:20:52+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:21:21+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:21:22+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:21:23+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:21:55+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:22:12+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:22:13+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T10:23:39+08:00 ] ::1 /project/test/index.php/addbill
+ERR: 无法加载控制器:Addbill
+
+[ 2015-12-30T11:18:48+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0054s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('166906F5D58BDFCE','3','25','2015-12-23'),('123502E5F734B05F','3','15','2015-12-22'),('9DD847347673F5A1','3','125','2015-12-22'),('2000','2015-11-10','321CDAC2A49B465E','3'),('235','2015-12-23','13BBD3579634E09E','3'),('215','2015-11-10','D4B4797CB3DFF86D','3'),('CC1320BCB9A56D99','3','12','2015-12-29') [ RunTime:0.0728s ]
+
+[ 2015-12-30T11:24:22+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0043s ]
+
+[ 2015-12-30T11:26:27+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0038s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('166906F5D58BDFCE','3','25','2015-12-23'),('123502E5F734B05F','3','15','2015-12-22'),('9DD847347673F5A1','3','125','2015-12-22'),('2000','2015-11-10','321CDAC2A49B465E','3'),('235','2015-12-23','13BBD3579634E09E','3'),('215','2015-11-10','D4B4797CB3DFF86D','3'),('CC1320BCB9A56D99','3','12','2015-12-29') [ RunTime:0.1496s ]
+
+[ 2015-12-30T15:51:32+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0621s ]
+
+[ 2015-12-30T15:52:58+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0223s ]
+
+[ 2015-12-30T15:53:48+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0041s ]
+
+[ 2015-12-30T15:54:09+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0071s ]
+
+[ 2015-12-30T16:10:26+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0084s ]
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('8D354851C3BDDEE8','3','12','2015-12-30'),('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502')
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('8D354851C3BDDEE8','3','12','2015-12-30'),('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502')
+
+[ 2015-12-30T16:10:37+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: mBank D:\Program Files (x86)\wamp\www\project\test\App\Home\Controller\SyncController.class.php 第 8 行.
+
+[ 2015-12-30T16:11:17+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0093s ]
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('8D354851C3BDDEE8','3','12','2015-12-30'),('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502')
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`) VALUES ('8D354851C3BDDEE8','3','12','2015-12-30'),('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502')
+
+[ 2015-12-30T16:12:13+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0041s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`,`category_id`) VALUES ('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502') [ RunTime:0.1301s ]
+
+[ 2015-12-30T16:15:05+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0059s ]
+ERR: 1062:Duplicate entry '2723B62B1596DCBD' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`,`category_id`) VALUES ('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502'),('8E3FCCF7F80C4CDF','3','1222','2015-11-25','7076542075117100'),('D1EFE1303A33B41A','3','2222','2015-12-30','7076542075117100'),('D6D5FCE64F2811BB','3','2220','2015-12-30','5654125761313273')
+ERR: 1062:Duplicate entry '2723B62B1596DCBD' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`,`category_id`) VALUES ('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502'),('8E3FCCF7F80C4CDF','3','1222','2015-11-25','7076542075117100'),('D1EFE1303A33B41A','3','2222','2015-12-30','7076542075117100'),('D6D5FCE64F2811BB','3','2220','2015-12-30','5654125761313273')
+
+[ 2015-12-30T16:15:47+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0040s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`money`,`date`,`category_id`) VALUES ('2723B62B1596DCBD','3','22','2015-12-30','3316565053565502'),('8E3FCCF7F80C4CDF','3','1222','2015-11-25','7076542075117100'),('D1EFE1303A33B41A','3','2222','2015-12-30','7076542075117100'),('D6D5FCE64F2811BB','3','2220','2015-12-30','5654125761313273') [ RunTime:0.1387s ]
+
+[ 2015-12-30T16:22:59+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0054s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('10DE071F1AC1CD32','3','0','23','2015-12-30','','0','0','3316565053565502'),('4F1F41B4750D1536','3','0','33','2015-12-30','','0','0','5223447072644203'),('64CF1D23E6B6D373','3','0','1222','2015-11-27','','0','0','7076542075117100'),('41DDB662AD7F3469','3','0','1222','2015-12-30','','0','0','7076542075117100') [ RunTime:0.2269s ]
+
+[ 2015-12-30T16:28:42+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0046s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('2E14D9816853E791','3','1','2000','2015-12-10','','0','0','7076542075117100'),('F3BDF8F1F8336C60','3','0','500','2015-12-24','','0','0','5654125761313273') [ RunTime:0.1072s ]
+
+[ 2015-12-30T16:32:39+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0047s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('791BD5CB4ED86BBC','3','0','500','2015-12-24','','0','0','5654125761313273') [ RunTime:0.0879s ]
+
+[ 2015-12-30T16:34:10+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0040s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100') [ RunTime:0.1530s ]
+
+[ 2015-12-30T17:23:48+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0044s ]
+ERR: 1062:Duplicate entry 'DAF10D2CFF7211B1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100'),('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+ERR: 1062:Duplicate entry 'DAF10D2CFF7211B1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100'),('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+
+[ 2015-12-30T17:27:41+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0042s ]
+SQL: INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100'),('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203') [ RunTime:0.2498s ]
+
+[ 2015-12-30T17:28:04+08:00 ] ::1 /project/test/index.php/sync
+SQL: SHOW COLUMNS FROM `bill` [ RunTime:0.0049s ]
+ERR: 1062:Duplicate entry 'DAF10D2CFF7211B1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100'),('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+ERR: 1062:Duplicate entry 'DAF10D2CFF7211B1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `bill` (`bill_id`,`user_id`,`isincome`,`money`,`date`,`remark`,`isdelete`,`isupdate`,`category_id`) VALUES ('DAF10D2CFF7211B1','3','1','2000','2015-12-30','工资   十二月','0','0','7076542075117100'),('91CDC822A2DBE947','3','0','23','2015-12-30','','0','0','5223447072644203')
+

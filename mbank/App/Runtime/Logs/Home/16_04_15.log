@@ -1,0 +1,10 @@
+[ 2016-04-15T10:18:33+08:00 ] 127.0.0.1 /mbank/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-04-15T10:18:36+08:00 ] 127.0.0.1 /mbank/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
