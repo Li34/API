@@ -8,22 +8,26 @@ class RegisterController extends Controller{
 		$mBank = json_decode($_POST['mBank'],true);
 
 		if(IS_POST){
-			$User = M('User');
-			$status = $this->upload();
-			// $status = 1;
-			if($status){
-				$mBank['head_pic'] = $this->__file_name;
-				$result = $User->add($mBank);
-				if($result){
-					myjson(400,'success','we',$mBank);
+			if($_FILES['file']){
+				$User = M('User');
+				$status = $this->upload();
+				// $status = 1;
+				if($status){
+					$mBank['head_pic'] = $this->__file_name;
+					$result = $User->add($mBank);
+					if($result){
+						myjson(400,'success','we',$mBank);
+					}else{
+						myjson(500,'error',$_POST);
+					}
 				}else{
-					myjson(500,'error',$_POST);
+					myjson(501,'error-img','register');
 				}
 			}else{
-				myjson(501,'error-img','register');
+				myjson(200,'success','register',$mBank);
 			}
 		}else{
-			myjson(200,'success','register',$mBank);
+			myjson(200,'success','register',[]);
 		}
 	}
 
