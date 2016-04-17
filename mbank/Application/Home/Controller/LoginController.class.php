@@ -8,12 +8,12 @@ class LoginController extends Controller{
 		$m_bank = json_decode($_POST['mBank'],true);
 		if(IS_POST){
 			$tb_user = M('M_user');
-			$where['email'] = $m_bank['username'];
-			$user = $tb_user->where($where)->select();
-			if($user['password']==$m_bank['password']){
-				myjson(200,'success','login',$user);
-			}else{
-				myjson(500,'密码错误','login');
+			$where['username'] = $m_bank['username'];
+            $user = $tb_user->where($where)->select();
+			if($user[0]['password']==$m_bank['password']){
+				myjson(200,'success','login',$user[0]);
+            }else{
+				myjson(500,'密码错误','login',$user[0]);
 			}
 
 		}else{
