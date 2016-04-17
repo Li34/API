@@ -27,7 +27,7 @@ class RegisterController extends Controller{
 				myjson(200,'success','register',$mBank);
 			}
 		}else{
-			myjson(200,'success','register',[]);
+			myjson(200,'success','register',M('M_user')->select());
 		}
 	}
 
