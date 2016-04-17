@@ -8,8 +8,9 @@ class RegisterController extends Controller{
 		$mBank = json_decode($_POST['mBank'],true);
 
 		if(IS_POST){
+			$User = M('M_user');
 			if($_FILES['file']){
-				$User = M('User');
+				//上传头像的时候
 				$status = $this->upload();
 				// $status = 1;
 				if($status){
@@ -24,6 +25,14 @@ class RegisterController extends Controller{
 					myjson(501,'error-img','register');
 				}
 			}else{
+				//没有上传头像的时候
+				$mBank['head_pic'] = 'default';
+				$result = $User->add($mBank);
+				if($result){
+					myjson(400,'success','we',$mBank);
+				}else{
+					myjson(500,'error',$_POST);
+				}
 				myjson(200,'success','register',$mBank);
 			}
 		}else{
