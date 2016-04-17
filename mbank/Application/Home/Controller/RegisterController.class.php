@@ -29,14 +29,13 @@ class RegisterController extends Controller{
 				$mBank['head_pic'] = 'default';
 				$result = $User->add($mBank);
 				if($result){
-					myjson(400,'success','we',$mBank);
+					myjson(200,'success','register',$mBank);
 				}else{
 					myjson(500,'error',$_POST);
 				}
-				myjson(200,'success','register',$mBank);
 			}
 		}else{
-			myjson(200,'success','register',M('M_user')->select());
+			myjson(400,'error-get','register',[]);
 		}
 	}
 
