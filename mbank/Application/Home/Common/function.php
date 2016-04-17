@@ -14,4 +14,4 @@ function myjson($code,$message,$resp,$data=array()){
 		echo json_encode($result);
 		exit;
 	}
-?>
+
