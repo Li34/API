@@ -23,7 +23,7 @@ class LoginController extends Controller{
             }
 			
 		}else{
-			myjson(500,'error-get','login');
+			myjson(500,'error-get','登录');
 		}
 	}
 }
