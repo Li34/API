@@ -1,0 +1,54 @@
+[ 2016-04-21T00:08:27+08:00 ] ::1 /API/mbank/index.php/resetpassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载控制器:Resetpassword
+
+[ 2016-04-21T00:08:40+08:00 ] ::1 /API/mbank/index.php/resetpassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002170s ]
+ERR: 无法加载控制器:Resetpassword
+
+[ 2016-04-21T00:08:45+08:00 ] ::1 /API/mbank/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-04-21T00:08:54+08:00 ] ::1 /API/mbank/index.php/LogiN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载控制器:LogiN
+
+[ 2016-04-21T00:09:04+08:00 ] ::1 /API/mbank/index.php/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-04-21T00:09:16+08:00 ] ::1 /API/mbank/index.php/ResetPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-04-21T00:09:26+08:00 ] ::1 /API/mbank/index.php/resetPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-04-21T00:09:29+08:00 ] ::1 /API/mbank/index.php/resetPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-04-21T00:09:33+08:00 ] ::1 /API/mbank/index.php/resetpassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载控制器:Resetpassword
+
+[ 2016-04-21T00:09:38+08:00 ] ::1 /API/mbank/index.php/resetPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+

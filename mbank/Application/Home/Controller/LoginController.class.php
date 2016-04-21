@@ -9,23 +9,22 @@ class LoginController extends Controller{
 		if(IS_POST){
 			$tb_user = M('M_user');
 			$where['username'] = $m_bank['username'];
-            $user = $tb_user->where($where)->select();
-			if($user[0]['password']==$m_bank['password']){
-				myjson(200,'success','login',$user[0]);
+            $user = $tb_user->where($where)->find();
+            if($user){
+            	if($user[0]['password']==$m_bank['password']){
+					myjson(200,'success','login',$user[0]);
+	            }else{
+					myjson(1001,'密码错误','login',$user[0]);
+				}
+            }else if($user==null){
+            	myjson(1002,'用户不存在','login');
             }else{
-				myjson(500,'密码错误','login',$user[0]);
-			}
-
+            	myjson(1003,'数据库错误','login');
+            }
+			
 		}else{
-			myjson(500,'error-get','login');
+			myjson(500,'error-get','登录');
 		}
-		$array = array(
-			'data'=>array(
-				'id'=>1,
-				'name'=>'jack'),
-			'msg'=>'login'
-			);
-		$this->ajaxReturn($array);
 	}
 }
 
