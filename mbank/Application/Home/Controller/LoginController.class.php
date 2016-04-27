@@ -11,10 +11,10 @@ class LoginController extends Controller{
 			$where['username'] = $m_bank['username'];
             $user = $tb_user->where($where)->find();
             if($user){
-            	if($user[0]['password']==$m_bank['password']){
-					myjson(200,'success','login',$user[0]);
+            	if($user['password']==$m_bank['password']){
+					myjson(200,'success','login',$user);
 	            }else{
-					myjson(1001,'密码错误','login',$user[0]);
+					myjson(1001,'密码错误','login',$user);
 				}
             }else if($user==null){
             	myjson(1002,'用户不存在','login');

@@ -17,7 +17,7 @@ class RegisterController extends Controller{
 					$mBank['head_pic'] = $this->__file_name;
 					$result = $User->add($mBank);
 					if($result){
-						myjson(400,'success','we',$mBank);
+						myjson(200,'success','register',$mBank);
 					}else{
 						myjson(500,'error',$_POST);
 					}
@@ -27,8 +27,9 @@ class RegisterController extends Controller{
 			}else{
 				//没有上传头像的时候
 				$mBank['head_pic'] = 'default';
-				$result = $User->add($mBank);
-				if($result){
+                $result = $User->add($mBank);
+                if($result){
+                    $mBank['user_id'] = $result;
 					myjson(200,'success','register',$mBank);
 				}else{
 					myjson(500,'error',$_POST);
@@ -44,7 +45,8 @@ class RegisterController extends Controller{
 		// $upload->maxSize = 3145728 ;// 设置附件上传大小
 	    // $upload->exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
 	    $upload->rootPath = './uploads/'; // 设置附件上传根目录
-	    $upload->savePath = 'head_pic/'; // 设置附件上传（子）目录
+        $upload->savePath = 'head_pic/'; // 设置附件上传（子）目录
+        $upload->autoSub = false;
 	    $upload->saveExt = 'png';
 
 	    // 上传单个文件 
