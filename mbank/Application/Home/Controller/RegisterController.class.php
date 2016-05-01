@@ -14,9 +14,11 @@ class RegisterController extends Controller{
 				$status = $this->upload();
 				// $status = 1;
 				if($status){
-					$mBank['head_pic'] = $this->__file_name;
+                    $mBank['head_pic'] = $this->__file_name;
+                    $mBank['password'] = md5($mBank['password']);
 					$result = $User->add($mBank);
-					if($result){
+                    if($result){
+                        $mBank['user_id'] = $result;
 						myjson(200,'success','register',$mBank);
 					}else{
 						myjson(500,'error',$_POST);
@@ -26,7 +28,8 @@ class RegisterController extends Controller{
 				}
 			}else{
 				//没有上传头像的时候
-				$mBank['head_pic'] = 'default';
+                $mBank['head_pic'] = 'default';
+                $mBank['password'] = md5($mBank['password']);
                 $result = $User->add($mBank);
                 if($result){
                     $mBank['user_id'] = $result;
