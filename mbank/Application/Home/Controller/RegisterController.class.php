@@ -28,7 +28,6 @@ class RegisterController extends Controller{
 				}
 			}else{
 				//没有上传头像的时候
-                $mBank['head_pic'] = 'default';
                 $mBank['password'] = md5($mBank['password']);
                 $result = $User->add($mBank);
                 if($result){

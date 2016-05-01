@@ -11,10 +11,10 @@ class ResetPasswordController extends Controller{
 			$where['user_id'] = $m_bank['user_id']; 
 			$user = $tb_user->where($where)->find();
 			if($user){
-				if($user['password'] == $m_bank['old_pwd']){
-					$update['password'] = $m_bank['new_pwd']; 
-					$result = $tb_user->save($update);
-					if($result==1){
+				if($user['password'] == md5($m_bank['old_pwd'])){
+                    $update['password'] = md5($m_bank['new_pwd']); 
+					$result = $tb_user->where($where)->save($update);
+					if($result !== false){
 						myjson(200,'success','resetpassword');
 					}else{
 						myjson(1004,'数据库更新错误','resetpassword');
